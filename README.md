@@ -14,7 +14,7 @@ So.. I decided to make this. 🔧<br />
 <br />
 <br />
 <br />
-# 📌 How to install this and use
+# 📌 How to install and use
 Assuming you're using Eclipse on Windows computer -<br />
 1️⃣ Install: Just drag the **whole "$" folder** to your Project's root folder(/src/ ← here) in the Package Explorer<br />
 2️⃣ Load: Type **"import $.$;"** at the top of your .java file source code and you can load it<br />
