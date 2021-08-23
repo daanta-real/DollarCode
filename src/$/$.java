@@ -1,6 +1,7 @@
 package $;
 
 public class $ {
+	// test
 	public static void pr (String s)                       { System.out.print(s);             }
 	public static void pn ()                               { System.out.println();            }
 	public static void pn (String s)                       { System.out.println(s);           }
