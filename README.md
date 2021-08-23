@@ -15,8 +15,10 @@ So.. I decided to make this. 🔧<br />
 <br />
 # 📌 How to install this and use
 Assuming you're using Eclipse on Windows computer -<br />
-1️⃣ Install: Just drag in your Project's root folder of source(root/src/ ← here) in the Package Explorer<br />
+1️⃣ Install: make folder which name is '$' in your Project's top folder of source in the Package Explorer<br />
+(root/src/$ ← like this)<br/>
 2️⃣ Load: Type this at the top of your .java file source code and you can load it<br />
+"import $.$;"<br/>
 3️⃣ Use: $.*method name*(*args*) will work.. Maybe?
 <br/>
 <br/>
