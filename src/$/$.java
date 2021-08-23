@@ -2,9 +2,14 @@ package $;
 
 public class $ {
 
-	public static void pr (String s)                       { System.out.print(s);             }
+	// print
+	public static void pr (Object o)                       { System.out.print(o);             }
+
+	// println
 	public static void pn ()                               { System.out.println();            }
-	public static void pn (String s)                       { System.out.println(s);           }
+	public static void pn (Object o)                       { System.out.println(o);           }
+
+	// printf
 	public static void pf (String format, Object ... args) { System.out.printf(format, args); }
 
 }
