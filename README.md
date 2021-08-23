@@ -6,9 +6,9 @@ Using this, you can write your code slightly faster, and read your code slightly
 <br />
 <br />
 # 📌 Why the hell you made this?
-I'm a newbie.. I'm taking hard time for just reading the JAVA code.. 😩<br />
-(I think the JAVA's codes are much loOoooOooOOoonger than other recently hot programming languages!)<br />
-Especially the basical methods are too long to read.. I'M TALKING ABOUT YOU, SYSOs! 😡<br />
+I'm a newbie.. I'm taking hard time.. for just reading the JAVA code.. 😩<br />
+I think the JAVA's codes are much loOoooOooOOoonger than other recently hot programming languages!<br />
+Especially the basical methods are too long to read!! (I'M TALKING ABOUT YOU, SYSOs! 😡)<br />
 I don't want to see ANY SYSOs in my codes!<br />
 So.. I decided to make this. 🔧<br />
 <br />
