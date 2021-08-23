@@ -15,21 +15,12 @@ So.. I decided to make this. 🔧<br />
 <br />
 # 📌 How to install this and use
 Assuming you're using Eclipse on Windows computer -<br />
-1. Install: Just drag in your Project's root folder in the Package Explorer<br />
-2. Load: Type this at the top of your .java file source code and you can load it<br />
-3. Use: $.*classname*(*method name*) will work.. Maybe?<br />
-<br />
-<br />
-<br />
+① Install: Just drag in your Project's root folder in the Package Explorer<br />
+② Load: Type this at the top of your .java file source code and you can load it<br />
+③ Use: $.*classname*(*method name*) will work.. Maybe?
+<br/>
+<br/>
+<br/>
 # 📌 Methods Provided
-I made 3 methods as far.<br />
-Its usage are NEARLY TOTALLY SAME as original usage.<br />
-$.pr() = System.out.print()<br />
-$.pf() = System.out.printf()<br />
-$.pn() = System.out.println()<br />
-<br />
-<br />
-<br />
-Please take my apologies for my poorly written codes.🥺<br />
-Thank you<br />
-<br />
+I made 3 methods as far.<br/>
+Its usage are NEARLY TOTALLY SAME as the original usage.<br/>
