@@ -1,4 +1,5 @@
-# 📌 What's this?
+![title](https://user-images.githubusercontent.com/84055731/130461213-8de6b4a0-1fa1-41c5-91d4-e27de9de6887.jpg)
+# 📌 What's this..?
 This is a code shortener of frequently used basical methods for newbies like me.<br />
 Using this, you can write your code slightly faster, and read your code slightly shorter.<br />
 <br />
