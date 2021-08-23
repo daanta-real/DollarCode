@@ -17,7 +17,7 @@ So.. I decided to make this. 🔧<br />
 Assuming you're using Eclipse on Windows computer -<br />
 1️⃣ Install: Just drag in your Project's root folder in the Package Explorer<br />
 2️⃣ Load: Type this at the top of your .java file source code and you can load it<br />
-3️⃣ Use: $.*method name*() will work.. Maybe?
+3️⃣ Use: $.*method name*(*args*) will work.. Maybe?
 <br/>
 <br/>
 <br/>
