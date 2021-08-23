@@ -24,3 +24,10 @@ Assuming you're using Eclipse on Windows computer -<br />
 # 📌 Methods Provided
 I made 3 methods as far.<br/>
 Its usage are NEARLY TOTALLY SAME as the original usage.<br/>
+$.pr() = System.out.print()<br/>
+$.pf() = System.out.printf()<br/>
+$.pn() = System.out.println()<br/>
+<br/>
+Please take my apologies for my poorly written codes.🥺<br/>
+Thank you<br/>
+<br/>
