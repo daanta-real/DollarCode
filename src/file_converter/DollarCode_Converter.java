@@ -1,13 +1,14 @@
 package file_converter;
 
-
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -15,12 +16,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import javax.swing.AbstractAction;
 import javax.swing.JButton;
+import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.KeyStroke;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -82,7 +86,9 @@ public class DollarCode_Converter extends JFrame {
 
     // 환경설정 준비
     private void readySettings() {
-        // 창 환경설정 - 사이즈, 레이아웃
+        // 창 환경설정 - 아이콘(128x128 png권장)
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("icon.png"));
+    	// 창 환경설정 - 사이즈, 레이아웃
         setSize(450, 600);
     	setLayout(new GridLayout(5, 1));
 
@@ -131,6 +137,7 @@ public class DollarCode_Converter extends JFrame {
 
     // 기능연결
     private void readyFuncs() {
+    	// 버튼
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // X 버튼 클릭시 종료
         ja1 = new ActionListener()		{ @Override public void actionPerformed(ActionEvent ae) { buttonExecution(true,  true);  } };
         ja2 = new ActionListener()		{ @Override public void actionPerformed(ActionEvent ae) { buttonExecution(true,  false); } };
@@ -142,6 +149,12 @@ public class DollarCode_Converter extends JFrame {
         jb3.addActionListener(ja3);
         jb4.addActionListener(ja4);
         jbExit.addActionListener(jaExit);
+        // ESC 키를 누르면 어플 자체를 종료하도록 함
+        getRootPane().getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(
+            KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), "Cancel");
+        getRootPane().getActionMap().put("Cancel", new AbstractAction(){
+            @Override public void actionPerformed(ActionEvent e) { dispose(); }
+        });
     }
 
     // 각 상세 메소드
