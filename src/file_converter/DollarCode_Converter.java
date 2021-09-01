@@ -87,7 +87,7 @@ public class DollarCode_Converter extends JFrame {
     // 환경설정 준비
     private void readySettings() {
         // 창 환경설정 - 아이콘(128x128 png권장)
-    	setIconImage(Toolkit.getDefaultToolkit().getImage("icon.png"));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("res/icon.png"));
     	// 창 환경설정 - 사이즈, 레이아웃
         setSize(450, 600);
     	setLayout(new GridLayout(5, 1));

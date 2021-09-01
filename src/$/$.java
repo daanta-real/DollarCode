@@ -12,4 +12,6 @@ public class $ {
 	// printf
 	public static void pf (String format, Object ... args) { System.out.printf(format, args); }
 
+	// returns ①, ②, ③, ... as you input 0, 1, 2, ...
+	public static char n(int number) { return (char)(9312 + number); }
 }
