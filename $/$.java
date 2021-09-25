@@ -31,10 +31,7 @@ public class $ {
 	public static char n(int number) { return (char)(9312 + number); }
 
     // 원하는 String 경고창으로 표시해줌
-    @SuppressWarnings("unused")
-	private void alert(String msg) { JOptionPane.showMessageDialog(
-		null, msg, "Alert", JOptionPane.WARNING_MESSAGE
-	); }
+	private void alert(String msg) { JOptionPane.showMessageDialog( null, msg, "Alert", JOptionPane.WARNING_MESSAGE ); }
 
     // 저장할 폴더경로+파일명 문자열을 GUI로 받아서 리턴해줌, 실패시 null 리턴
     public static String fileGetName(String ext, String extDescription) {
@@ -68,7 +65,7 @@ public class $ {
 	} catch (Exception e) { return false; } }
 
     // Returns the size string using kB, MB, Gb, ... format
-    public static String getFileSizeFormatedTxt(long fileSize) {
+    public static String getSizeFormatedTxt(long fileSize) {
       Object[][] sizeInfoes = { {1099511627776L, "T"}, {1073741824L, "G"}, {1048576L, "M"}, {1024L, "k"} };
       String s = "";
       for(Object[] o: sizeInfoes) if(fileSize >= (long)o[0]) {
@@ -93,6 +90,5 @@ public class $ {
 		+ "<script type=\"text/javascript\">\r\n"
 		+ "function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}\r\n"
 		+ "</script><script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script>";
-
 
 }
